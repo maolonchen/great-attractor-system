@@ -33,7 +33,7 @@ class MinerUConfig:
 
 
 class ChatLLMConfig:
-    url: ClassVar[str] = "https://api.siliconflow.cn/v1/chat/completions"  # 8b
+    url: ClassVar[str] = "https://api.siliconflow.cn/v1/chat/completions"
 
     headers: ClassVar[Dict[str, Any]] = {
         "Content-Type": "application/json",
@@ -136,10 +136,10 @@ class ChunkingConfig:
 class KafkaConfig:
     # Kafka配置
     enable: ClassVar[bool] = False  # 默认禁用 Kafka，用于测试环境
-    bootstrap_servers: ClassVar[List[str]] = ["192.168.10.203:9092"]
-    sasl_plain_username: ClassVar[str] = "sw"
-    sasl_plain_password: ClassVar[str] = "siweicn123"
-    security_protocol: ClassVar[str] = "SASL_PLAINTEXT"
-    sasl_mechanism: ClassVar[str] = "PLAIN"
-    topic: ClassVar[str] = "scip_add_knowledge_task"
+    bootstrap_servers: ClassVar[List[str]] = ["xxx:9092"]
+    sasl_plain_username: ClassVar[str] = "xxx"
+    sasl_plain_password: ClassVar[str] = "xxx"
+    security_protocol: ClassVar[str] = "xxx"
+    sasl_mechanism: ClassVar[str] = "xxx"
+    topic: ClassVar[str] = "xxx"
     partition: ClassVar[int] = 0
