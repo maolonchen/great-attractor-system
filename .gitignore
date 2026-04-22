@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+data/db/*
+data/processed/*
+data/raw/*
+data/standards/*
+logs/*
+notebooks/
+other/
+outputs/
+uploads/
+
+*.pem
+index.html.bak
+similarity_results.json
+
+*.egg-info
+
+# Virtual environments
+.venv
+uv*

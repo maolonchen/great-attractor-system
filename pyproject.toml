@@ -1,0 +1,17 @@
+[project]
+name = "zhongyi-cls-grad2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "asyncio>=4.0.0",
+    "fastapi>=0.121.1",
+    "jieba>=0.42.1",
+    "openpyxl>=3.1.5",
+    "pymilvus[milvus-lite]>=2.6.3",
+    "python-multipart>=0.0.20",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.38.0",
+]
